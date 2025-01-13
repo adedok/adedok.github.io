@@ -74,6 +74,7 @@ const open = (type) => {
           border-radius: 12px;
           // background: #40BA6D;
           margin-bottom: 40px;
+          margin-top: 72px;
         }
         .tit{
           color: #000000;
