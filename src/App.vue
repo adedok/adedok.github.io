@@ -16,7 +16,8 @@ const open = (type) => {
       </div>
       <div class="wrap-con-t">
         <div class="left">
-          <p class="graph"></p>
+          <!-- <p class="graph"></p> -->
+          <img class="graph" src="@/assets/image/icon.png">
           <p class="tit">Enjoy <span>Pure Manager</span></p>
           <p class="desc">Pure Manager that brilliant and practical tool, is developed to assist users in efficiently handling the often-cramped storage space of their Android mobile phones. By virtue of its robust and innovative functions, it can meticulously take care of your device's complex file system, numerous apps as well as precious data, and at the same time offer you a truly straightforward and highly efficient experience.</p>
         </div>
@@ -71,7 +72,7 @@ const open = (type) => {
           height: 80px;
           flex-shrink: 0;
           border-radius: 12px;
-          background: #40BA6D;
+          // background: #40BA6D;
           margin-bottom: 40px;
         }
         .tit{
