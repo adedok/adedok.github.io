@@ -49,8 +49,9 @@ const open = (type) => {
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  overflow-y: auto;
   &-con{
+    height: calc(100vh - 88px);
+    overflow-y: auto;
     &-top{
       margin-bottom: 148px;
       display: flex;
@@ -81,7 +82,7 @@ const open = (type) => {
           font-family: "SF Pro Display";
           font-size: 40px;
           font-style: normal;
-          font-weight: 800;
+          // font-weight: 800;
           margin-bottom: 20px;
           display: flex;
           span{
@@ -98,7 +99,7 @@ const open = (type) => {
           font-family: "Roboto";
           font-size: 16px;
           font-style: normal;
-          font-weight: 400;
+          // font-weight: 400;
           line-height: 24px;
         }
       }
