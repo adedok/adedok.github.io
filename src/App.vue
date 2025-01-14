@@ -16,16 +16,15 @@ const open = (type) => {
       </div>
       <div class="wrap-con-t">
         <div class="left">
-          <!-- <p class="graph"></p> -->
           <img class="graph" src="@/assets/image/icon.png">
           <p class="tit">Enjoy <span>Pure Manager</span></p>
           <p class="desc">Pure Manager that brilliant and practical tool, is developed to assist users in efficiently handling the often-cramped storage space of their Android mobile phones. By virtue of its robust and innovative functions, it can meticulously take care of your device's complex file system, numerous apps as well as precious data, and at the same time offer you a truly straightforward and highly efficient experience.</p>
         </div>
         <img class="rig" src="@/assets/image/cont.png">
       </div>
-      <div class="wrap-con-b">
-        <img src="@/assets/image/bottom.png">
-      </div>
+    </div>
+    <div class="wrap-bot">
+      <img class="bImg" src="@/assets/image/bottom.png">
     </div>
     <div class="foot">
       <div class="foot-h">
@@ -50,8 +49,9 @@ const open = (type) => {
   height: 100%;
   min-height: 100vh;
   &-con{
-    height: calc(100vh - 88px);
+    min-height: calc(100vh - 88px - 92px);
     overflow-y: auto;
+    position: relative;
     &-top{
       margin-bottom: 148px;
       display: flex;
@@ -96,7 +96,7 @@ const open = (type) => {
         }
         .desc{
           color: #999999;
-          font-family: "Roboto";
+          // font-family: "Roboto";
           font-size: 16px;
           font-style: normal;
           // font-weight: 400;
@@ -110,11 +110,14 @@ const open = (type) => {
     }
     &-b{
       display: flex;
-      img{
-        margin-left: 10%;
-        width: 684px;
-        height: 100%;
-      }
+      height: 92px;
+    }
+  }
+  &-bot{
+    height: 92px;
+    img{
+      margin-left: 10%;
+      width: 684px;
     }
   }
 }
