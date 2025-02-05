@@ -17,8 +17,8 @@ const open = (type) => {
       <div class="wrap-con-t">
         <div class="left">
           <img class="graph" src="@/assets/image/icon.png">
-          <p class="tit">Enjoy <span>Pure Manager</span></p>
-          <p class="desc">Pure Manager that brilliant and practical tool, is developed to assist users in efficiently handling the often-cramped storage space of their Android mobile phones. By virtue of its robust and innovative functions, it can meticulously take care of your device's complex file system, numerous apps as well as precious data, and at the same time offer you a truly straightforward and highly efficient experience.</p>
+          <p class="tit">Enjoy <span>FortiShield</span></p>
+          <p class="desc">FortiShield that brilliant and practical tool, is developed to assist users in efficiently handling the often-cramped storage space of their Android mobile phones. By virtue of its robust and innovative functions, it can meticulously take care of your device's complex file system, numerous apps as well as precious data, and at the same time offer you a truly straightforward and highly efficient experience.</p>
         </div>
         <img class="rig" src="@/assets/image/cont.png">
       </div>
