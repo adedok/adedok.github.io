@@ -37,7 +37,7 @@ const open = (type) => {
         <div class="content">
           <img class="content-t" :src="ImgHCT" alt="" srcset="">
           <p class="content-des">
-            Pure Manager that brilliant and practical tool, is developed to assist users in efficiently handling the often-cramped storage space of their Android mobile phones. 
+            FortiShield that brilliant and practical tool, is developed to assist users in efficiently handling the often-cramped storage space of their Android mobile phones. 
           </p>
           <img class="content-b" :src="ImgHCB" alt="">
         </div>
@@ -47,16 +47,20 @@ const open = (type) => {
       <div class="wrap-con-qc">
         <div class="wrap-con-qc-h">
           <img :src="ImgWQcH">
-          <p class="wrap-con-qc-h-des">Saves you time with a quick and easy search.</p>
+          <p class="wrap-con-qc-h-des">offers a wealth of features and user - friendly interactive experience.</p>
         </div>
         <ul class="wrap-con-qc-c">
           <li class="wrap-con-qc-c-li">
             <img :src="ImgWCLi1">
-            <p>Saves you time with a quick and easy search.Saves you time with a quick and easy search.</p>
+            <p>
+              quickly locates and deletes space - hogging files. This frees up storage, speeds up your phone, and makes room for new data.
+            </p>
           </li>
           <li class="wrap-con-qc-c-li">
             <img :src="ImgWCLi2">
-            <p>Saves you time with a quick and easy search.Saves you time with a quick and easy search.</p>
+            <p>
+              Effortlessly browse through and manage the photos, videos, and audio files stored on your device.
+            </p>
           </li>
         </ul>
         <div class="wrap-con-qc-b">
@@ -201,14 +205,14 @@ ul, li{
           word-wrap: break-word;
           color: #666666;
           font-family: "SF Pro Display";
-          font-size: 32px;
+          font-size: 28px;
           font-style: normal;
           font-weight: 500;
           line-height: 36px;
           img{
             width: 80px;
             height: 80px;
-            margin-bottom: 27px;
+            margin-bottom: 23px;
           }
 
         }
