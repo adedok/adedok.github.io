@@ -148,6 +148,7 @@ ul, li{
       }
       .content{
         margin-top: 105px;
+        text-align: center;
         &-t{
           height: 84px;
           img{
@@ -163,6 +164,7 @@ ul, li{
           font-weight: 500;
           line-height: 36px;
           font-size: 24px;
+          padding: 0 80px;
         }
         &-b{
           width: 100%;
