@@ -37,7 +37,7 @@ const open = (type) => {
         <div class="content">
           <img class="content-t" :src="ImgHCT" alt="" srcset="">
           <p class="content-des">
-            FortiShield that brilliant and practical tool, is developed to assist users in efficiently handling the often-cramped storage space of their Android mobile phones. 
+            Quick AntiVirus that brilliant and practical tool, is developed to assist users in efficiently handling the often-cramped storage space of their Android mobile phones. 
           </p>
           <img class="content-b" :src="ImgHCB" alt="">
         </div>
