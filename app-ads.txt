@@ -385,3 +385,5 @@ yieldmo.com, 3591550211052216798, RESELLER, 6a92c77cfc3d2258
 zmaticoo.com, 5135655, RESELLER
 
 video.unrulymedia.com, 463431857, DIRECT
+
+mman.kr, 33085, RESELLER
