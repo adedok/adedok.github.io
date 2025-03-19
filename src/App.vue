@@ -4,6 +4,7 @@ import ImgLogoB from '@/assets/image/logo-b.png'
 import ImgHCT from '@/assets/image/h-c-t.png'
 import ImgHCB from '@/assets/image/h-c-b.png'
 import ImgWQcH from '@/assets/image/wrap-qc-h.png'
+import ImgWQcH2 from '@/assets/image/wrap-qc-h2.png'
 import ImgWCLi1 from '@/assets/image/wrap-c-li.png'
 import ImgWCLi2 from '@/assets/image/wrap-c-li2.png'
 import ImgWQcB from '@/assets/image/wrap-qc-b.png'
@@ -12,9 +13,9 @@ import ImgWQcB from '@/assets/image/wrap-qc-b.png'
 // h-c-b
 const open = (type) => {
   if(type == 'privacy'){
-    window.open('./privacy.html','_target')
+    window.open('./wbPrivacy.html','_target')
   }else{
-    window.open('./terms.html', '_target')
+    window.open('./wbTerms.html', '_target')
   }
 }
 
@@ -26,7 +27,7 @@ const open = (type) => {
       <div class="wrap-header-bg-c">
         <div class="header">
           <div class="header-l">
-            <img :src="ImgHL" alt="">
+            <!-- <img :src="ImgHL" alt=""> -->
           </div>
           <div class="header-r">
             <p @click="open('terms')">Terms</p>
@@ -37,7 +38,7 @@ const open = (type) => {
         <div class="content">
           <img class="content-t" :src="ImgHCT" alt="" srcset="">
           <p class="content-des">
-            Quick AntiVirus that brilliant and practical tool, is developed to assist users in efficiently handling the often-cramped storage space of their Android mobile phones. 
+            Welcome! Your Phone’s Cleanup & Security Partner
           </p>
           <img class="content-b" :src="ImgHCB" alt="">
         </div>
@@ -63,6 +64,10 @@ const open = (type) => {
             </p>
           </li>
         </ul>
+        <div class="wrap-con-qc-h" style="margin-bottom: 46px;">
+          <img :src="ImgWQcH2">
+          <p class="wrap-con-qc-h-des">Adapt to different user habits.</p>
+        </div>
         <div class="wrap-con-qc-b">
           <img :src="ImgWQcB" alt="">
         </div>
@@ -71,7 +76,7 @@ const open = (type) => {
     <div class="wrap-b"></div>
     <div class="foot">
       <div class="foot-c">
-        <img class="foot-c-l" :src="ImgLogoB">
+        <!-- <img class="foot-c-l" :src="ImgLogoB"> -->
         <div class="foot-c-r">
           <div class="foot-c-r-h">
             <p @click="open('privacy')">Privacy</p>
@@ -156,13 +161,13 @@ ul, li{
           }
         }
         &-des{
-          margin: 18px 0 26px;
+          margin: 21px 0 59px;
           color: #a8b3aa;
           text-align: center;
           font-family: "SF Pro Display";
           font-style: normal;
           font-weight: 500;
-          line-height: 36px;
+          // line-height: 36px;
           font-size: 24px;
           padding: 0 80px;
         }
@@ -250,7 +255,8 @@ ul, li{
     margin: 0 auto;
     width: 1200px;
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
+    justify-content: center;
     align-items: center;
     &-l{
       width: 204px;
@@ -275,6 +281,7 @@ ul, li{
           cursor: pointer;
         }
         display: flex;
+        justify-content: center;
         flex-direction: row-reverse;
         .line{
           margin: 0 16px;
